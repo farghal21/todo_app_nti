@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:todo_app_nti/Categories/app_button.dart';
 import 'package:todo_app_nti/Style/Colors/app_font_colors.dart';
 import 'package:todo_app_nti/Style/Images/images.dart';
-import 'package:todo_app_nti/ToDoAppScreens/profile_screen.dart';
+import 'package:todo_app_nti/ToDoAppScreens/login_screen.dart';
 
 class LetsStartScreen extends StatelessWidget {
   const LetsStartScreen({super.key});
@@ -51,7 +51,7 @@ class LetsStartScreen extends StatelessWidget {
               ),
               AppButton(
                 buttontext: 'Let’s Start',
-                nextScreen: ProfileScreen(),
+                nextScreen: LoginScreen(),
               ),
             ],
           ),
