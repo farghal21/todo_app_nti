@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app_nti/Categories/app_button.dart';
-import 'package:todo_app_nti/Style/Colors/app_font_colors.dart';
-import 'package:todo_app_nti/Style/Images/images.dart';
-import 'package:todo_app_nti/ToDoAppScreens/login_screen.dart';
+import 'package:todo_app_nti/Features/LogIn/app_button.dart';
+import 'package:todo_app_nti/Core/Recources_Manager/Style/Colors/app_font_colors.dart';
+import 'package:todo_app_nti/Core/Recources_Manager/Style/Images/images.dart';
+import 'package:todo_app_nti/Features/LogIn/login_screen.dart';
 
 class LetsStartScreen extends StatelessWidget {
   const LetsStartScreen({super.key});

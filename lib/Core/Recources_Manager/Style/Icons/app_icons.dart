@@ -6,6 +6,8 @@ abstract class AppIcons {
   static String profileIcon = 'assets/Icons/ProfileIcon.svg';
   static String arrowIcon = 'assets/Icons/ArrowIcon.svg';
   static String arrow2Icon = 'assets/Icons/Arrow2Icon.svg';
+  static String arrowDownIcon = 'assets/Icons/ArrowDownIcon.svg';
   static String settingIcon = 'assets/Icons/SettingIcon.svg';
   static String checkedIcon = 'assets/Icons/CheckedIcon.svg';
+  static String noTAskIcon = "assets/Icons/OBJECTS.svg";
 }

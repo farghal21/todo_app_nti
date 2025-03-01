@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app_nti/Categories/app_button.dart';
-import 'package:todo_app_nti/Style/Colors/app_font_colors.dart';
-import 'package:todo_app_nti/Style/Images/images.dart';
-import 'package:todo_app_nti/ToDoAppScreens/home_screen.dart';
+import 'package:todo_app_nti/Features/LogIn/app_button.dart';
+import 'package:todo_app_nti/Core/Recources_Manager/Style/Colors/app_font_colors.dart';
+import 'package:todo_app_nti/Core/Recources_Manager/Style/Images/images.dart';
+import 'package:todo_app_nti/Features/Home/no_task_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -64,7 +64,7 @@ class LoginScreen extends StatelessWidget {
               ),
               AppButton(
                 buttontext: 'Save',
-                nextScreen: HomeScreen(),
+                nextScreen: NoTaskScreen(),
               )
             ],
           ),

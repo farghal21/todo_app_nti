@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app_nti/Categories/profile_card.dart';
-import 'package:todo_app_nti/Style/Icons/app_icons.dart';
-import 'package:todo_app_nti/Style/Images/images.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:todo_app_nti/Features/Profile/profile_card.dart';
+import 'package:todo_app_nti/Core/Recources_Manager/Style/Icons/app_icons.dart';
 
 class NoTaskScreen extends StatelessWidget {
   const NoTaskScreen({super.key});
@@ -43,12 +43,7 @@ class NoTaskScreen extends StatelessWidget {
               ),
               Container(
                 margin: EdgeInsets.symmetric(vertical: 20),
-                width: 375,
-                height: 268,
-                child: Image.asset(
-                  AppImages.noTAskImage,
-                  fit: BoxFit.cover,
-                ),
+                child: SvgPicture.asset(AppIcons.noTAskIcon),
               )
             ],
           ),

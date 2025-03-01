@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app_nti/Categories/profile_card.dart';
-import 'package:todo_app_nti/Categories/task_groups.dart';
-import 'package:todo_app_nti/Categories/task_groups_counter.dart';
-import 'package:todo_app_nti/Categories/tasks_card.dart';
-import 'package:todo_app_nti/Style/Colors/app_colors.dart';
-import 'package:todo_app_nti/Style/Icons/app_icons.dart';
+import 'package:todo_app_nti/Features/Profile/profile_card.dart';
+import 'package:todo_app_nti/Features/Home/task_groups.dart';
+import 'package:todo_app_nti/Features/Home/task_groups_counter.dart';
+import 'package:todo_app_nti/Features/Add%20Task/tasks_card.dart';
+import 'package:todo_app_nti/Core/Recources_Manager/Style/Colors/app_colors.dart';
+import 'package:todo_app_nti/Core/Recources_Manager/Style/Icons/app_icons.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

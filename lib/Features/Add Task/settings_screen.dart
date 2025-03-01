@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:todo_app_nti/Style/Colors/app_colors.dart';
-import 'package:todo_app_nti/Style/Icons/app_icons.dart';
-import 'package:todo_app_nti/ToDoAppScreens/profile_screen.dart';
+import 'package:todo_app_nti/Core/Recources_Manager/Style/Colors/app_colors.dart';
+import 'package:todo_app_nti/Core/Recources_Manager/Style/Icons/app_icons.dart';
+import 'package:todo_app_nti/Features/Profile/profile_screen.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app_nti/Style/Colors/app_colors.dart';
-import 'package:todo_app_nti/ToDoAppScreens/lets_start_screen.dart';
+import 'package:todo_app_nti/Core/Recources_Manager/Style/Colors/app_colors.dart';
+import 'package:todo_app_nti/Features/LogIn/lets_start_screen.dart';
 
 void main() {
   runApp(const MyApp());
